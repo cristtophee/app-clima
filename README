@@ -1,0 +1,52 @@
+# EasyClima ❄️☀️🌦️
+
+**EasyClima** es una aplicación móvil desarrollada con Flutter que permite consultar el clima actual y el pronóstico de los próximos 5 días para cualquier ciudad del mundo. Además, permite guardar ciudades favoritas, ver un mapa interactivo y utilizar autocompletado para facilitar la búsqueda.
+
+## 📱 Características principales
+
+- Autenticación básica con usuario y contraseña
+- Consulta del clima actual y pronóstico de 5 días
+- Agregar ciudades a una lista de favoritos
+- Ver ciudades favoritas guardadas
+- Buscar ciudades con sugerencias automáticas (autocompletado)
+- Navegación a una pantalla de mapa interactivo para seleccionar ubicaciones
+- Información general de la aplicación
+- Diseño moderno y adaptado a dispositivos móviles
+
+## 🔌 APIs Utilizadas
+
+- **OpenWeatherMap API**: Para obtener datos del clima actual y pronóstico.
+- **Geoapify Places API**: Para el autocompletado de ciudades.
+- **Google Maps SDK**: Para mostrar un mapa interactivo donde el usuario puede seleccionar ubicaciones.
+
+## 🧪 Pruebas
+
+Se han realizado pruebas de:
+- Inicio de sesión con credenciales correctas e incorrectas.
+- Agregar y evitar duplicados en la lista de favoritos.
+- Mostrar sugerencias automáticas al escribir una ciudad.
+- Visualización de datos del clima y pronóstico.
+- Carga y navegación entre pantallas.
+
+También se realizaron pruebas unitarias con Dart y pruebas de endpoints en Postman para las APIs externas.
+
+## 🧑‍💻 Autor
+
+Desarrollado por **Cristopher De Oleo** como parte del programa **TEP** en la **Pontificia Universidad Católica Madre y Maestra (PUCMM)**, República Dominicana.
+
+## 📅 Año
+
+2025
+
+## 🛠️ Tecnologías
+
+- Flutter
+- Dart
+- Firebase (en pruebas previas)
+- OpenWeatherMap
+- Geoapify
+- Google Maps
+
+## 📄 Licencia
+
+Este proyecto es de uso académico y no cuenta con licencia comercial.
